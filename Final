@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page</title>
+    <link rel="icon" href="../Homework/Homework.jpg">
+    <style>
+        body {
+            background-image: url('Homework.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+            color: #333 !important;
+            text-shadow: 0 0 3px rgba(255, 255, 255, 0.5);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            text-align: center;
+        }
+
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.7); /* White with 70% opacity */
+            z-index: -1;
+        }
+
+        .wrapper {
+            background-color: snow;
+            width: 100%;
+        }
+
+        .card {
+            background-color: burlywood;
+            width: 300px;
+        }
+
+        /* Optional: Basic styling for layout elements */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+            background-color: rgba(255, 255, 255, 0.9);
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 1.5rem;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+        }
+
+        .btn {
+            padding: 0.5rem 1rem;
+            background-color: burlywood;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .container-box {
+            padding: 2rem;
+        }
+
+        .box {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: rgba(255, 250, 250, 0.9);
+            padding: 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .deco-grid {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            gap: 0.5rem;
+            margin-top: 1rem;
+        }
+
+        .deco-grid div {
+            width: 20px;
+            height: 20px;
+            background-color: burlywood;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header class="container">
+        <div class="logo">DestinyMidnight</div>
+        <nav>
+            <ul>
+                <li><a href="#">Feature</a></li>
+                <li><a href="#">Pricings</a></li>
+                <li><a href="#">Guides</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="btn">Sign Up</button>
+    </header>
+    <section class="container-box">
+        <div class="box">
+            <h2>Basic Plan</h2>
+            <p>To reach the future you deserve, you need to absorb every lesson and master every skill you can to unlock your full potential.
+                Stop simply being, and start the courageous, difficult work of becoming the unstoppable force that destiny demands.</p>
+            <div class="deco-grid">
+                <div></div><div></div><div></div><div></div><div></div><div></div>
+                <div></div><div></div><div></div><div></div><div></div><div></div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
