@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Web Page</title>
+        <link rel="stylesheet" href="../Homework/Homework.css">
+        <link rel="stylesheet" href="../Homework/Homework.js">
+        <link rel="icon" href="../Homework/Homework.jpg">
+    </head>
+    <body>
+        <header class="container">
+            <div class="logo">DestinyMidnight</div>
+            <nav>
+                <ul>
+                    <li><a href="#">Feature</a></li>
+                    <li><a href="#">Pricings</a></li>
+                    <li><a href="#">Guides</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        <button class="btn">Sign Up</button>
+        </header>
+        <section class="container-box">
+            <div class="box">
+                <h2>Basic Plan</h2>
+                <p>To reach the future you deserve, you need to absorb every lesson and master every skill you can to unlock your full potential.
+                    Stop simply being, and start the courageous, difficult work of becoming the unstoppable force that destiny demands.</p>
+                <div class="deco-grid">
+                    <div></div><div></div><div></div><div></div><div></div><div></div>
+                    <div></div><div></div><div></div><div></div><div></div><div></div>
+                </div>
+                
+        </section>
+    </body>
+</html>
